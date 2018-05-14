@@ -40,7 +40,7 @@ def main(_):
     plt.xlabel('time_step')
     plt.ylabel('values')
     plt.legend(loc=4)
-    plt.savefig('predict_result.jpg')
+    plt.savefig('csv.jpg')
 
 
 if __name__ == '__main__':

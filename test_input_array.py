@@ -12,7 +12,7 @@ x = np.array(range(1000))
 noise = np.random.uniform(-0.2, 0.2, 1000)
 y = np.sin(np.pi * x / 100) + x / 200. + noise
 plt.plot(x, y)
-plt.savefig('timeseries_y.jpg')
+plt.savefig('test_input_timeseries_y.jpg')
 
 data = {
     tf.contrib.timeseries.TrainEvalFeatures.TIMES: x,
