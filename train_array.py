@@ -13,7 +13,7 @@ def main(_):
     noise = np.random.uniform(-0.2, 0.2, 1000)
     y = np.sin(np.pi * x / 100) + x / 200. + noise
     plt.plot(x, y)
-    plt.savefig('timeseries_y.jpg')
+    plt.savefig('array_timeseries_y.jpg')
 
     data = {
         tf.contrib.timeseries.TrainEvalFeatures.TIMES: x,
@@ -47,7 +47,7 @@ def main(_):
     plt.xlabel('time_step')
     plt.ylabel('values')
     plt.legend(loc=4)
-    plt.savefig('predict_result.jpg')
+    plt.savefig('array.jpg')
 
 
 if __name__ == '__main__':

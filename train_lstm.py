@@ -196,4 +196,4 @@ if __name__ == '__main__':
   predicted_lines = plt.plot(predicted_times, predicted, label="prediction", color="r")
   plt.legend(handles=[observed_lines[0], evaluated_lines[0], predicted_lines[0]],
              loc="upper left")
-  plt.savefig('predict_result.jpg')
+  plt.savefig('lstm.jpg')
